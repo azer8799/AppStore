@@ -1,0 +1,11 @@
+/* Write your CSS here */
+
+.logo {
+  width: 120px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.desc {
+  text-align: center;
+}

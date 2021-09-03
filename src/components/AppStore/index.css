@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+.bg-container {
+  min-height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9, #2563eb);
+}
+
+.all-apps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.all-tabs {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  flex-shrink: 0;
+}
+
+.search-logo {
+  width: 20px;
+  order: 2;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.input-container {
+  border: 2px solid grey;
+  display: flex;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  border: none;
+}
